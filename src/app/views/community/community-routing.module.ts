@@ -8,7 +8,7 @@ const routes: Routes = [
     path: '',
     component: CommunityComponent,
     data: {
-      title: 'Health Practitioners',
+      title: 'Car Sales People',
     },
   },
   {

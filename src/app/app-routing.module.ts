@@ -34,14 +34,14 @@ const routes: Routes = [
       //     import('./views/community-post/community-post.module').then((m) => m.CommunityPostModule),
       // },
       {
-        path: 'community',
+        path: 'car-sales',
         loadChildren: () =>
           import('./views/community/community.module').then(
             (m) => m.CommunityModule
           ),
       },
       {
-        path: 'user',
+        path: 'car-deals',
         loadChildren: () =>
           import('./views/users/user.module').then((m) => m.UserModule),
       },
