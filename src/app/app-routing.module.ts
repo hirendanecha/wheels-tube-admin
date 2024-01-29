@@ -41,7 +41,7 @@ const routes: Routes = [
           ),
       },
       {
-        path: 'car-deals',
+        path: 'user',
         loadChildren: () =>
           import('./views/users/user.module').then((m) => m.UserModule),
       },

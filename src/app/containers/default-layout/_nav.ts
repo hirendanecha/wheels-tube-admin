@@ -17,7 +17,7 @@ export const navItems: INavData[] = [
   },
   {
     name: 'Car Deals',
-    url: '/car-deals',
+    url: '/pages',
     iconComponent: { name: 'cil-layers' },
   },
   // {
